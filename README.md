@@ -6,7 +6,7 @@
 - [x] https://www.youtube.com/watch?v=cpEeqACsF_Q
 
 ## 공통 주제(4개 다 하고, 순서를 정해서 먼저 한다)
-1. 돌아가는 카드(성원)
+1. 돌아가는 카드
 2. 이두희
 3. 양(현지)
 4. surf forecast
