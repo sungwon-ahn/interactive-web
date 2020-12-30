@@ -32,13 +32,13 @@ jobs:
       - name: Run eslint
         run: yarn lint
 
-      - name: Build
-        run: yarn build
-        env:
-          NODE_ENV: production
+#      - name: Build
+#        run: yarn build
+#        env:
+#          NODE_ENV: production
 
-      - name: preDeploy
-        run: yarn add --dev gh-pages && git remote add origin https://github.com/sungwon-ahn/sungwon-ahn.github.io.git
+#      - name: preDeploy
+#        run: yarn add --dev gh-pages && git remote add origin https://github.com/sungwon-ahn/sungwon-ahn.github.io.git
       
-      - name: deploy
-        run : yarn run deploy
+#      - name: deploy
+#        run : yarn run deploy
