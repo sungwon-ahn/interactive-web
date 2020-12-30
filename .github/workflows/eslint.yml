@@ -27,20 +27,18 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Setup environments
-        run: yarn install
-      
+        run: yarn install && npm install --save gh-pages
+
       - name: Run eslint
         run: yarn lint
 
       - name: Build
-        run: yarn run build
+        run: yarn build
         env:
           NODE_ENV: production
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v2.5.0
-        env:
-          PERSONAL_TOKEN: ${{secrets.GH_PAT}}
-          PUBLISH_BRANCH: master
-          PUBLISH_DIR: ./public
-          SCRIPT_MODE: true
+      - name: preDeploy
+        run: yarn add --dev gh-pages && git remote add origin https://github.com/sungwon-ahn/sungwon-ahn.github.io.git
+      
+      - name: deploy
+        run : yarn run deploy
