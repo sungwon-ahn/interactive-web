@@ -6,6 +6,13 @@
   font-weight: 600;
 }
 
+.my-draggable {
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    background-color: #cca;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

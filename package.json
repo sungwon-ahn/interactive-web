@@ -9,7 +9,12 @@
     "@testing-library/user-event": "^12.1.10",
     "gh-pages": "^3.1.0",
     "react": "^17.0.1",
+    "react-card": "^1.0.4",
+    "react-card-flip": "^1.0.11",
     "react-dom": "^17.0.1",
+    "react-gamepads": "^1.0.0",
+    "react-native": "^0.63.4",
+    "react-native-flip-card": "^3.5.6",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
@@ -19,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.js",
-    "predeploy" : "yarn build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
