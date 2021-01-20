@@ -1,16 +1,5 @@
 .App {
-  background: black;
-  color: aqua;
-  font-size: 36px;
-  padding: 1rem;
-  font-weight: 600;
-}
-
-.my-draggable {
-    cursor: pointer;
-    width: 200px;
-    height: 200px;
-    background-color: #cca;
+  text-align: center;
 }
 
 .App-logo {
