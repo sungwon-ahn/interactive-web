@@ -1,18 +1,5 @@
-import {useState} from 'react';
-import './Card.css';
-
-function Card () {
-     const onMouseOver = () => setFlag(true);
-     const onMouseOut = () => setFlag(false);
-
-     return(
-        
-        <div>
-            
-        </div>
-
-     )
-}
+// import {useState} from 'react';
+// import './Card.css';
 
 // function Card({color , translateX}) {
 //     const [flag, setFlag] = useState(false);
